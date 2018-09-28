@@ -57,7 +57,7 @@ movie-listing-challenge/
 /src/index.js
 ```
 
-This is the entry point of the application where we render the `/src/containers/App/App.js` component. The app component itself will trigger the `getMovies` and `getGenres` actions that will trigger TMDb API calls. <br />
+This is the entry point of the application where we render the `/src/containers/App/App.js` component. The App component itself will trigger the `getMovies` and `getGenres` actions that will trigger TMDb API calls. <br />
 
 The App component will then render `/src/containers/Movies/Movies.js` and `/src/containers/Filters/Filters.js` containers having movies and genres props passed. <br />
 
@@ -65,6 +65,7 @@ In the end, the Movies and Filters containers will render pure components from `
 
 ## How to run.
 
+* Update `YOUR_API_KEY` from `/src/utility/api.util.js` with your TMDb API key
 * Verify you have node installed (`node --version` to see output)
 * Clone the project on your local machine
 * install dependencies using `npm install`

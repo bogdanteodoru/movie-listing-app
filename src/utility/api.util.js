@@ -1,5 +1,5 @@
 const BASE_MOVIE_API_URL = 'https://api.themoviedb.org/3';
-const API_KEY = 'f193fbe6c901391c31cd38bfe1bc1269';
+const API_KEY = 'YOUR_API_KEY';
 
 /*
  * Builds the actual API endpoint path.
