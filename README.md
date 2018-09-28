@@ -68,7 +68,7 @@ In the end, the Movies and Filters containers will render pure components from `
 * Update `YOUR_API_KEY` from `/src/utility/api.util.js` with your TMDb API key
 * Verify you have node installed (`node --version` to see output)
 * Clone the project on your local machine
-* install dependencies using `npm install`
+* Install dependencies using `npm install`
 * Run `npm start` to start in development mode or `npm build` to build a production ready version
 
 
